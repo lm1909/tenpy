@@ -41,7 +41,7 @@ we need a :class:`~tenpy.models.model.NearestNeighborModel`, in which the Hamilt
 two-site bond-terms to allow a Suzuki-Trotter decomposition of the time-evolution operator::
 
     class MyNewModel2(NearestNeighborModel):
-        """General strucutre for a model suitable for TEBD."""
+        """General structure for a model suitable for TEBD."""
         def __init__(self, model_params):
             lattice = somehow_generate_lattice(model_params)
             H_bond = somehow_generate_H_bond(lattice, model_params)
