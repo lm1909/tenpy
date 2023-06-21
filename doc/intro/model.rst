@@ -306,7 +306,7 @@ Finally, if you wanted a reduction in MPO bond dimension, you would need to set 
 Non-uniform terms and couplings
 -------------------------------
 The CouplingModel-methods :meth:`~tenpy.models.model.CouplingModel.add_onsite`, :meth:`~tenpy.models.model.CouplingModel.add_coupling`, 
-and :meth:`~tenpy.models.model.CouplingModel.add_multi_coupling` add a sum over a "couplig" term shifted by lattice
+and :meth:`~tenpy.models.model.CouplingModel.add_multi_coupling` add a sum over a "coupling" term shifted by lattice
 vectors. However, some models are not that "uniform" over the whole lattice.
 
 First of all, you might have some local term that gets added only at one specific location in the lattice.
